@@ -1,0 +1,70 @@
+html {
+    background-color: white;
+    color: #2f2f2f;
+    font-family: 'Lora', 'Black Ops One', cursive, 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+/* Memorey Game Title */
+h1 {
+    text-align: center;
+}
+
+/* Score Board */
+h2 {
+    text-align: center;
+    color: #FF5049;
+    font-size: 26px;
+}
+
+/*Container */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 440px;
+    border: 2px solid #931616;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+/* All the boxes in the container */
+.grid div {
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px 2px 0px;
+}
+
+.grid-cells {
+    background-color: #f0adad;
+    border-radius: 8px;
+}
+
+.invader {
+    background-color: orchid;
+    border-radius: 12px;
+}
+
+.invader-fade {
+     opacity: 0.8;
+}
+
+.shooter {
+    background-color: dodgerblue;
+    border-radius: 12px;
+    opacity: 1;
+    transition: opacity 1s; 
+}
+
+.fire {
+    background-color: orangered;
+    border-radius: 8px;
+}
+
+.shot {
+    background-color: dimgray;
+    border-radius: 8px;
+}
